@@ -1,0 +1,98 @@
+@import "variables";
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: $color-blanco;
+
+    .login-fluid {
+        // border: 1px dashed rebeccapurple;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+
+        .login-container {
+            // border: 1px dashed orange;
+            height: 100%;
+
+            position: relative;
+        
+            .login-row {
+                border: 1px dashed red;
+                height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+
+                .login-baner {
+                    background-color: $color-azul;
+                    height: 30%;
+                }
+
+                .login-row-secion {
+                    background-color: $color-blanco;
+                    border-radius: 20px 20px 0 0;
+                    height: 83%;
+
+                    position: absolute;
+                    top: 17%;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    .login-titulo {
+                        border: 1px dashed ridge;
+                        font-family: $fuente-titulos;
+                        font-weight: bold;
+                        font-size: 3rem;
+                    }
+
+                    .login-fb-google {
+                        // border: 1px dashed red;
+
+                        button {
+                            border: none;
+                            background-color: $color-grisclaro;
+                            height: 40px;
+                            width: 120px;
+                            margin: 0px 7px;
+                            padding: 10px;
+                            border-radius: 20px;
+                        }
+
+                        .btn-fb {
+                            background-color: rgb(0, 0, 60);
+
+                            a {
+                                color: $color-blanco;
+                                text-decoration: none;
+                                font-family: $fuente-parrafos;
+                                cursor: pointer;
+                            }
+                        }
+
+                        #btn-google {
+                            background-color: orangered;
+                            
+                            a {
+                                color: $color-blanco;
+                                text-decoration: none;
+                                font-family: $fuente-parrafos;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
