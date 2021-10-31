@@ -124,9 +124,32 @@
                         <p>00:00</p>
                     </div>
 
-                    <button class="parking-btn">
+                    <button class="parking-btn" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-inspector">
                         ACTIVAR ESTACIONAMIENTO
                     </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-inspector" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 id="error404-titulo" class="modal-title" id="exampleModalLabel">
+                                        404
+                                    </h5>
+                                </div>
+                                <div id="error404-img" class="modal-body">
+                                    <img style="width: 80px;" src="img/llama-404.png" alt="">
+                                    <h4>Ups! Estamos en construcción</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
 
                 </div>
 

@@ -212,6 +212,47 @@ body {
                         right: 10%;
                         bottom: 8px;
                     }
+
+                    .btn-inspector {
+                        background-color: #A2A69C;
+                        width: 30vw;
+                        height: 3rem;
+                        border: none;
+                        border-radius: 5px 0px 0px 5px;
+
+                        a {
+                            background-color: $color-boton-gris;
+                            text-decoration: none;
+                            color: $color-grisoscuro;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 1.1rem;
+                            cursor: pointer;
+                            border: none;
+                        }
+                    }
+
+                    #modal-inspector {
+                        .modal-header {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+
+                            h5 {
+                                font-size: 2rem;
+                                color: $color-grisoscuro;
+                                font-weight: bold;
+                                text-align: center;
+                            }
+                        }
+
+                        #error404-img {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            align-items: center;
+                        }
+                    }
                 }
 
                 .parking-iconos {
