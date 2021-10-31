@@ -61,11 +61,13 @@ body .inicio-fluid .inicio-container .inicio-row .btn-container .btn-inspector {
   border-radius: 5px 0px 0px 5px;
 }
 body .inicio-fluid .inicio-container .inicio-row .btn-container .btn-inspector a {
+  background-color: #A2A69C;
   text-decoration: none;
   color: #434343;
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   cursor: pointer;
+  border: none;
 }
 body .inicio-fluid .inicio-container .inicio-row .btn-container .btn-usuario {
   background-color: #cbcec7;
@@ -75,11 +77,36 @@ body .inicio-fluid .inicio-container .inicio-row .btn-container .btn-usuario {
   border-radius: 0px 5px 5px 0px;
 }
 body .inicio-fluid .inicio-container .inicio-row .btn-container .btn-usuario a {
+  background-color: none;
   text-decoration: none;
   color: #434343;
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   cursor: pointer;
+  border: none;
+}
+body .inicio-fluid .inicio-container .inicio-row .btn-container #error404-titulo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #A2A69C;
+}
+body .inicio-fluid .inicio-container .inicio-row .btn-container #error404-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .inicio-fluid .inicio-container .inicio-row .btn-container #error404-img img {
+  width: 5rem;
+}
+body .inicio-fluid .inicio-container .inicio-row .btn-container #error404-img h4 {
+  width: auto;
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

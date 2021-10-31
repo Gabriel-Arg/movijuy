@@ -56,10 +56,34 @@
                     <h1>MOVI <span>JUY</span> </h1>
                 </div>
                 
+                
                 <div class="btn-container">
+
+                    <!-- -----------BONTON INSPECTOR--------------------------------------- -->
                     <button class="btn-inspector">
-                        <a href="">Inspector</a>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-inspector"
+                        href="">Inspector</a>
                     </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-inspector" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 id="error404-titulo" class="modal-title" id="exampleModalLabel">
+                                        404
+                                    </h5>
+                                </div>
+                                <div id="error404-img" class="modal-body">
+                                    <img src="img/llama-404.png" alt="">
+                                    <h4>Ups! Estamos en construcción</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- -----------BONTON USUARIO--------------------------------------- -->
                     <button class="btn-usuario">
                         <a href="">Conductor</a>
                     </button>
