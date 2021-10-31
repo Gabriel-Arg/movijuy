@@ -1,0 +1,72 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+}
+body .parking-fluid {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+body .parking-fluid .parking-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body .parking-fluid .parking-container .parking-row {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+body .parking-fluid .parking-container .parking-row-sup {
+  background-color: #06338A;
+  height: 10%;
+  padding: 0;
+  margin: 0;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .parking-fluid .parking-container .parking-row-sup .parking-saludo {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+body .parking-fluid .parking-container .parking-row-sup .parking-saludo p {
+  margin: 0px 0px 0px 10px;
+  padding: 0;
+  color: #eeeeee;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+body .parking-fluid .parking-container .parking-row-sup .parking-menu {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+body .parking-fluid .parking-container .parking-row-sup .parking-menu img {
+  width: 40px;
+}
+body .parking-fluid .parking-container .parking-row-inf {
+  background-color: #eeeeee;
+  height: 90%;
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=parking.css.map */

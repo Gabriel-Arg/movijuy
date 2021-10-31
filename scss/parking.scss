@@ -1,0 +1,98 @@
+@import "variables";
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: $color-blanco;
+
+    .parking-fluid {
+        // border: 1px dashed red;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+
+        .parking-container {
+            // border: 1px dashed crimson;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+
+            position: relative;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .parking-row {
+                // border: 1px dashed blue;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+
+            .parking-row-sup {
+                background-color: $color-azul;
+                height: 10%;
+                padding: 0;
+                margin: 0;
+                border-radius: 0px 0px 15px 15px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                .parking-saludo {
+                    // border: 1px dashed orange;
+                    width: 200px;
+                    height: 50px;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+
+                    p {
+                        margin: 0px 0px 0px 10px;
+                        padding: 0;
+                        color: $color-blanco;
+                        font-size: 20px;
+                        font-family: $fuente-titulos;
+
+                    }
+                }
+
+                .parking-menu {
+                    // border: 1px dashed orange;
+                    width: 100px;
+                    height: 50px;
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    img {
+                        width: 40px;
+                    }
+                }
+            }
+
+            .parking-row-inf {
+                // border: 1px dashed crimson;
+                background-color: $color-blanco;
+                height: 90%;
+                padding: 0;
+                margin: 0;
+
+            }
+        }
+    }
+
+
+
+
+}
