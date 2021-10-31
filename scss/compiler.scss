@@ -3,14 +3,14 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(243, 243, 243);
 
     .inicio-fluid {
-        border: 1px dashed red;
+        // border: 1px dashed red;
         height: 100vh;
 
         .inicio-container {
-            border: 1px dashed orangered;
+            // border: 1px dashed orangered;
             height: 100%;
 
             display: flex;
@@ -19,7 +19,7 @@ body {
             align-items: center;
 
             .inicio-row {
-                border: 1px dashed blue;
+                // border: 1px dashed blue;
                 height: 90vh;
                 width: 100%;
 
@@ -29,16 +29,78 @@ body {
                 align-items: center;
 
                 .inicio-logo {
-                    width: 80%;
-                }
-
-                .inicio-titulo {
-                    border: 1px dashed red;
+                    width: 60vw;
 
                     display: flex;
                     justify-content: center;
                     align-items: center;
+
+                    img {
+                        width: 60%;
+                    }
                 }
+
+                .inicio-titulo {
+                    // border: 1px dashed red;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: cente;
+
+                    h1 {
+                        margin: 0;
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        color: #06338A;
+
+                        span {
+                            color: #1CB9BC;
+                        }
+                    }
+                }
+
+                .btn-container {
+                    // border: 1px dashed green;
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    .btn-inspector {
+                        background-color: #A2A69C;
+                        width: 30vw;
+                        height: 3rem;
+                        border: none;
+                        border-radius: 5px 0px 0px 5px;
+
+                        a {
+                            text-decoration: none;
+                            color: rgb(67, 67, 67);
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 1.1rem;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .btn-usuario {
+                        background-color: #cbcec7;
+                        width: 30vw;
+                        height: 3rem;
+                        border: none;
+                        border-radius: 0px 5px 5px 0px;
+
+                        a {
+                            text-decoration: none;
+                            color: rgb(67, 67, 67);
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 1.1rem;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+
             }
         }
     }
