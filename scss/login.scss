@@ -54,14 +54,20 @@ body {
                     }
 
                     .login-fb-google {
-                        // border: 1px dashed red;
+                        border: 1px dashed red;
+                        width: 77vw;
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
 
                         button {
                             border: none;
                             background-color: $color-grisclaro;
                             height: 40px;
-                            width: 120px;
-                            margin: 0px 7px;
+                            width: 130px;
+                            margin: 0px;
                             padding: 10px;
                             border-radius: 20px;
                         }
@@ -87,6 +93,25 @@ body {
                                 cursor: pointer;
                             }
                         }
+                    }
+
+                    #login-form {
+                        border: 1px dashed red;
+                        width: 77vw;
+                        font-family: $fuente-titulos;
+                    }
+
+                    #form-recordar {
+                        color:$color-grisoscuro;
+                        font-family: $fuente-subtitulos;
+                    }
+
+                    .btn-iniciar {
+                        background-color: $color-celestef;
+                        margin-top: 25px;
+                        width: 100%;
+                        border-radius: 20px;
+                        font-family: $fuente-titulos;
                     }
                 }
             }

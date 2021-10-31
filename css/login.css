@@ -43,12 +43,20 @@ body .login-fluid .login-container .login-row .login-row-secion .login-titulo {
   font-weight: bold;
   font-size: 3rem;
 }
+body .login-fluid .login-container .login-row .login-row-secion .login-fb-google {
+  border: 1px dashed red;
+  width: 77vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 body .login-fluid .login-container .login-row .login-row-secion .login-fb-google button {
   border: none;
   background-color: #cbcec7;
   height: 40px;
-  width: 120px;
-  margin: 0px 7px;
+  width: 130px;
+  margin: 0px;
   padding: 10px;
   border-radius: 20px;
 }
@@ -69,6 +77,22 @@ body .login-fluid .login-container .login-row .login-row-secion .login-fb-google
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+}
+body .login-fluid .login-container .login-row .login-row-secion #login-form {
+  border: 1px dashed red;
+  width: 77vw;
+  font-family: "Roboto", sans-serif;
+}
+body .login-fluid .login-container .login-row .login-row-secion #form-recordar {
+  color: #434343;
+  font-family: "Roboto", sans-serif;
+}
+body .login-fluid .login-container .login-row .login-row-secion .btn-iniciar {
+  background-color: #0ca4a7;
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=login.css.map */
