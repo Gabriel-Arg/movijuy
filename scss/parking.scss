@@ -82,12 +82,42 @@ body {
             }
 
             .parking-row-inf {
-                // border: 1px dashed crimson;
+                border: 1px dashed crimson;
                 background-color: $color-blanco;
                 height: 90%;
                 padding: 0;
                 margin: 0;
 
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .parking-iconos {
+                    // border: 1px dashed blue;
+                    height: 55px;
+                    padding: 7px 0px 0px 5px;
+                    margin: 0;
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    figure {
+                        margin: 0;
+                        padding: 0;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        img {
+                            width: 25px;
+                        }
+                    }
+                }
             }
         }
     }
