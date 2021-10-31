@@ -20,7 +20,7 @@ body {
             position: relative;
         
             .login-row {
-                border: 1px dashed red;
+                // border: 1px dashed red;
                 height: 100%;
 
                 display: flex;
@@ -54,7 +54,7 @@ body {
                     }
 
                     .login-fb-google {
-                        border: 1px dashed red;
+                        // border: 1px dashed red;
                         width: 77vw;
 
                         display: flex;
@@ -96,7 +96,7 @@ body {
                     }
 
                     #login-form {
-                        border: 1px dashed red;
+                        // border: 1px dashed red;
                         width: 77vw;
                         font-family: $fuente-titulos;
                     }
@@ -112,6 +112,23 @@ body {
                         width: 100%;
                         border-radius: 20px;
                         font-family: $fuente-titulos;
+                    }
+
+                    .login-olvide {
+                        a {
+                            color: $color-grisoscuro;
+                            text-decoration: none;
+                        }
+                    }
+
+                    .login-registrarse {
+
+                        a {
+                            color: $color-grisoscuro;
+                            font-weight: bold;
+                            font-size: 20px;
+                            text-decoration: none;
+                        }
                     }
                 }
             }
