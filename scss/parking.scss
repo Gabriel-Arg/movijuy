@@ -90,8 +90,53 @@ body {
 
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
+                justify-content: flex-end;
                 align-items: center;
+
+                .parking-mapa {
+                    border: 10px solid white;
+                    margin: 0;
+                    padding: 0;
+
+                    position: relative;
+
+                    .parking-tiempo {
+                        background-color: $color-azul;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        padding: 0;
+                        margin: 0;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        position: absolute;
+                        right: 10px;
+                        bottom: 88%;
+
+                        p {
+                            margin: 0;
+                            padding: 0;
+                            color: $color-blanco;
+                            font-size: 23px;
+                        }
+                    }
+
+                    .parking-btn {
+                        border: none;
+                        border-radius: 10px;
+                        background-color: $color-celestef;
+                        height: 50px;
+                        width: 80%;
+
+                        position: absolute;
+                        right: 10%;
+                        bottom: 8px;
+                    }
+                }
 
                 .parking-iconos {
                     // border: 1px dashed blue;
