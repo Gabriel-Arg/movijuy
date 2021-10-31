@@ -106,6 +106,10 @@ body {
                         font-family: $fuente-subtitulos;
                     }
 
+                    #select-opcion {
+                        background-color: red;
+                    }
+
                     .btn-iniciar {
                         background-color: $color-celestef;
                         margin-top: 25px;
@@ -130,6 +134,13 @@ body {
                             text-decoration: none;
                         }
                     }
+
+                    #btn-siguiente {
+                        color: $color-blanco;
+                        text-decoration: none;
+                    }
+
+
                 }
             }
         }

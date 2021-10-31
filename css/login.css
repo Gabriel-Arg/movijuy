@@ -84,6 +84,9 @@ body .login-fluid .login-container .login-row .login-row-secion #form-recordar {
   color: #434343;
   font-family: "Roboto", sans-serif;
 }
+body .login-fluid .login-container .login-row .login-row-secion #select-opcion {
+  background-color: red;
+}
 body .login-fluid .login-container .login-row .login-row-secion .btn-iniciar {
   background-color: #0ca4a7;
   margin-top: 25px;
@@ -99,6 +102,10 @@ body .login-fluid .login-container .login-row .login-row-secion .login-registrar
   color: #434343;
   font-weight: bold;
   font-size: 20px;
+  text-decoration: none;
+}
+body .login-fluid .login-container .login-row .login-row-secion #btn-siguiente {
+  color: #eeeeee;
   text-decoration: none;
 }
 
