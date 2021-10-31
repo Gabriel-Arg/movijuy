@@ -93,6 +93,61 @@ body {
                 justify-content: flex-end;
                 align-items: center;
 
+                .parking-metricas {
+                    // background-color: rgba(255, 217, 0, 0.392);
+                    padding: 25px;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    justify-content: center;
+
+                    #parking-tira {
+                        // border: 1px dashed black;
+
+                        p {
+                            color: $color-grisoscuro;
+                            font-family: $fuente-titulos;
+                            font-size: 17px;
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+
+                    .parking-dinero {
+                        border-radius: 10px;
+                        background-color: white;
+                        padding: 5px;
+                        margin-bottom: 10px;
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        #dinero {
+                            font-weight: bold;
+                            color: $color-azul;
+                            font-size: 25px;
+                        }
+
+                        figure {
+                            width: 40px;
+                            background-color: $color-celestef;
+                            margin: 0;
+                            padding: 0;
+                            border-radius: 10px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+
+
+                }
+
                 .parking-mapa {
                     border: 10px solid white;
                     margin: 0;

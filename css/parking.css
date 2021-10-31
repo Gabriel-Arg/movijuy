@@ -73,6 +73,45 @@ body .parking-fluid .parking-container .parking-row-inf {
   justify-content: flex-end;
   align-items: center;
 }
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+}
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas #parking-tira p {
+  color: #434343;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+}
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas .parking-dinero {
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas .parking-dinero #dinero {
+  font-weight: bold;
+  color: #06338A;
+  font-size: 25px;
+}
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas .parking-dinero figure {
+  width: 40px;
+  background-color: #0ca4a7;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas .parking-dinero figure img {
+  width: 100%;
+}
 body .parking-fluid .parking-container .parking-row-inf .parking-mapa {
   border: 10px solid white;
   margin: 0;
