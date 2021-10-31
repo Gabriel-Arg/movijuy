@@ -39,6 +39,7 @@ body .inicio-fluid .inicio-container .inicio-row .inicio-titulo {
 }
 body .inicio-fluid .inicio-container .inicio-row .inicio-titulo h1 {
   margin: 0;
+  font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   color: #06338A;
