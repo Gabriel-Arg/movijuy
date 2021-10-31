@@ -95,7 +95,7 @@ body {
 
                 .parking-metricas {
                     // background-color: rgba(255, 217, 0, 0.392);
-                    padding: 25px;
+                    padding: 0px 20px;
 
                     display: flex;
                     flex-direction: column;
@@ -108,7 +108,7 @@ body {
                         p {
                             color: $color-grisoscuro;
                             font-family: $fuente-titulos;
-                            font-size: 17px;
+                            font-size: 0.8rem;
                             padding: 0;
                             margin: 0;
                         }
@@ -142,9 +142,30 @@ body {
                                 width: 100%;
                             }
                         }
+
+                        .parking-tarifa {
+                            background-color: red;
+                        }
                     }
 
+                    .tarifa-numeros {
+                        // background-color: red;
 
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        .tarifa-cuadrado {
+                            margin: 5px 10px;
+
+                            .tarifa-numero {
+                                color: $color-azul;
+                                font-weight: bold;
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
 
                 }
 

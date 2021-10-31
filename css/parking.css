@@ -74,7 +74,7 @@ body .parking-fluid .parking-container .parking-row-inf {
   align-items: center;
 }
 body .parking-fluid .parking-container .parking-row-inf .parking-metricas {
-  padding: 25px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -83,7 +83,7 @@ body .parking-fluid .parking-container .parking-row-inf .parking-metricas {
 body .parking-fluid .parking-container .parking-row-inf .parking-metricas #parking-tira p {
   color: #434343;
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: 0.8rem;
   padding: 0;
   margin: 0;
 }
@@ -111,6 +111,23 @@ body .parking-fluid .parking-container .parking-row-inf .parking-metricas .parki
 }
 body .parking-fluid .parking-container .parking-row-inf .parking-metricas .parking-dinero figure img {
   width: 100%;
+}
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas .parking-dinero .parking-tarifa {
+  background-color: red;
+}
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas .tarifa-numeros {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas .tarifa-numeros .tarifa-cuadrado {
+  margin: 5px 10px;
+}
+body .parking-fluid .parking-container .parking-row-inf .parking-metricas .tarifa-numeros .tarifa-cuadrado .tarifa-numero {
+  color: #06338A;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 body .parking-fluid .parking-container .parking-row-inf .parking-mapa {
   border: 10px solid white;
